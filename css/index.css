@@ -1,0 +1,409 @@
+/*
+* @Author: Administrator
+* @Date:   2017-03-31 15:09:33
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-11 00:37:14
+*/
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+	-webkit-text-size-adjust:none;
+}
+*{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	/* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+	/* -webkit-appearance: none; */
+	/* -webkit-text-size-adjust:100%; */
+	/* -webkit-user-select:none; */
+	/* -webkit-overflow-scrolling:touch; */
+	/* -webkit-transform: translate3d(0, 0, 0); */
+	/* transform: translate3d(0, 0, 0); */
+	-webkit-user-select:none;
+	user-select:none;
+	/* -webkit-tap-highlight-color:rgba(255,255,255,0); */
+	-webkit-text-size-adjust: 100%;
+  	 text-size-adjust: 100%;
+	
+}
+body{
+ 	font-family:Helvetica;
+ 	background: #F5F6FA;
+}
+body,html{
+ 	width: 100%;
+ 	height: 100%;
+ 	overflow: hidden;
+}
+body{
+ 	overflow: scroll;
+}
+a{
+	text-decoration: none;
+}
+
+.header{
+	width:100%;
+	height: 4.5rem;
+	width:auto;
+	background-image: url('../img/banner_02.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 1.22rem;
+}
+.header nav{
+	width: 100%;
+	height: 1.22rem;
+	background: #36BBFE;
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+.header nav .f{
+	width: 7.9rem;
+	height: 0.96rem;
+	background: #fff;
+	border-radius: 4px;
+	position:absolute;
+	top: 0.12rem;
+	left: 0.3rem;
+}
+.header nav .f form input{
+	outline: none;
+	border: none;
+	width: 7.5rem;
+	color: #A9A9A9;
+	margin-top: 0.27rem;
+	margin-left: 0.2rem;
+	font-size: 0.36rem;
+}
+.header nav .icon{
+	width: 1.05rem;
+	height: 0.93rem;
+	position: fixed;
+	top: 0.12rem;
+	right: 2.8rem;
+	background-image: url('../img/icon.png');
+	background-size: 3rem;
+	background-position:0.2rem 0.15rem;
+	background-repeat: no-repeat;
+}
+.header nav .gei{
+	width: 2rem;
+	height: 0.87rem;
+	background: #03159B;
+	position:absolute;
+	top: 0.16rem;
+	right: 0.3rem;
+	border-radius: 5px;
+	text-align: center;
+
+}
+.header nav .gei>span{
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.87rem;
+	letter-spacing: 0.04rem;
+}
+
+/* 中间 */
+.content{
+	height:5.33rem;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.content li{
+	width:25%;
+	height:auto;
+	padding: 0.5rem 0.25rem;
+	box-sizing: border-box;
+
+}
+.content li:nth-child(5){
+	padding: 0rem 0.25rem;
+}
+.content li:nth-child(6){
+	padding: 0rem 0.25rem;
+}
+.content li:nth-child(7){
+	padding: 0rem 0.25rem;
+}
+.content li:nth-child(8){
+	padding: 0rem 0.25rem;
+}
+.content li>a{
+	display: block;
+	width: 2.2rem;
+	height:2.2rem;
+	background:#fff;
+	border-radius: 8px;	
+	border-top: 1px solid #fff;
+}
+.content li:nth-child(1)>a>div{
+	width: 1.55rem;
+	height: 1.55rem;
+	background-image: url('../img/beijing.png');
+	background-position:0 0;
+	background-size:3rem;
+	background-repeat: no-repeat;
+	margin: 0.35rem auto;
+}
+.content li>h1{
+	width: 2.2rem;
+	height: auto;
+	color: #636365;
+	font-size: 0.38rem;
+	text-align: center;
+	margin-top: 0.2rem;
+	font-weight: normal;
+}
+.content li:nth-child(2)>a>div{
+	width: 1.55rem;
+	height: 1.55rem;
+	background-image: url('../img/beijing.png');
+	background-position:-1.5rem 0;
+	background-size:3rem;
+	background-repeat: no-repeat;
+	margin: 0.35rem auto;
+}
+.content li:nth-child(3)>a>div{
+	width: 1.55rem;
+	height: 1.55rem;
+	background-image: url('../img/beijing.png');
+	background-position:0.2rem -1.7rem;
+	background-size:3rem;
+	background-repeat: no-repeat;
+	margin: 0.35rem auto;
+}
+.content li:nth-child(4)>a>div{
+	width: 1.55rem;
+	height: 1.55rem;
+	background-image: url('../img/ufo.png');
+	background-position:0 0;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin: 0.35rem auto;
+}
+.content li:nth-child(5)>a>div{
+	width: 1.55rem;
+	height: 1.55rem;
+	background-image: url('../img/beijing.png');
+	background-position:-1.5rem -1.7rem;
+	background-size:3rem;
+	background-repeat: no-repeat;
+	margin: 0.35rem auto;
+}
+.content li:nth-child(6)>a>div{
+	width: 1.55rem;
+	height: 1.55rem;
+	background-image: url('../img/beijing.png');
+	background-position:0.1rem -5.0rem;
+	background-size:3rem;
+	background-repeat: no-repeat;
+	margin: 0.35rem auto;
+}
+.content li:nth-child(7)>a>div{
+	width: 1.55rem;
+	height: 1.55rem;
+	background-image: url('../img/beijing.png');
+	background-position:0.1rem -3.3rem;
+	background-size:3rem;
+	background-repeat: no-repeat;
+	margin: 0.35rem auto;
+}
+.content li:nth-child(8)>a>div{
+	width: 1.55rem;
+	height: 1.55rem;
+	background-image: url('../img/beijing.png');
+	background-position:-1.5rem -3.3rem;
+	background-size:3rem;
+	background-repeat: no-repeat;
+	margin: 0.35rem auto;
+}
+
+.center{
+	width: 100%;
+	height: 0.8rem;
+	background: #fff;
+	margin-top: 2rem;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+.center h2{
+	color: #348BC3;
+	font-size: 0.38rem;
+	line-height: 0.9rem;
+}
+.mian1{
+	width: 100%;
+	height:3rem;
+	display: flex;
+}
+.mian1 .mian{
+	display: block;
+	width: 50%;
+	height: 3rem;
+	background: #fff;
+	float: left;
+	position: relative;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	overflow: hidden
+}
+.mian1 .mian .ren{
+	width: 1.86rem;
+	height: 1.7rem;
+	position:absolute;
+	top: 0.7rem;
+	right: 0.5rem;
+	background-image: url('../img/beijing.png');
+	background-position:0rem -6.5rem;
+	background-size:3rem;
+	background-repeat: no-repeat;
+}
+.mian1 .mian h3{
+	color: #727272;
+	font-size: 0.36rem;
+	margin-left: 0.4rem;	
+	margin-top: 0.4rem;
+}
+.mian1 .mian h4{
+	color: #D4D4D4;
+	font-size: 0.36rem;
+	margin-left: 0.4rem;
+	margin-top: 0.05rem;
+}
+
+.mian1 .mian .ren1{
+	background-image: url('../img/beijing.png');
+	background-position:-0.2rem -8.5rem;
+	background-size:2.8rem;
+	background-repeat: no-repeat;
+}
+.bottom1{
+	width: 100%;
+	height: 3.52rem;
+	display: flex;
+	border-top: 1px solid #eee;
+}
+.bottom1 .bottom{
+	display: block;
+	width: 33.33333%;
+	height: 2.2rem;
+	background: #fff;
+	position: relative;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.bottom1 .bottom .b1{
+	width: 0.86rem;
+	height: 0.86rem;
+	position:absolute;
+	top: 0.7rem;
+	left: 0.4rem;
+	background-image: url('../img/beijing.png');
+	background-position:-0.05rem -10.7rem;
+	background-size:2.9rem;
+	background-repeat: no-repeat;
+}
+.bottom1 .bottom h3{
+	color: #727272;
+	font-size: 0.36rem;
+	margin-left: 1.4rem;	
+	margin-top: 0.6rem;
+}
+.bottom1 .bottom h4{
+	color: #D4D4D4;
+	font-size: 0.36rem;
+	margin-left: 1.4rem;
+	margin-top: 0.05rem;
+}
+.bottom1 .bottom .b2{
+	background-image: url('../img/beijing.png');
+	background-position:-1rem -10.7rem;
+	background-size:2.9rem;
+	background-repeat: no-repeat;
+}
+.bottom1 .bottom .b3{
+	background-image: url('../img/beijing.png');
+	background-position:-2rem -10.7rem;
+	background-size:2.9rem;
+	background-repeat: no-repeat;
+}
+footer{
+	width: 100%;
+	height: 1.4rem;
+	background:#E7E7E7;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+footer .center{
+	width: 4.4rem;
+	height: 1.4rem;
+	background: #FF8D11;
+	position: absolute;
+	bottom: 0.1rem;
+	left: 30%;
+	border-radius: 6px;
+	line-height: 1.4rem;
+	box-shadow: 1px 1px 10px 0.5px #ccc;
+}
+footer .center h5{
+	color: #fff;
+	font-size: 0.42rem;
+	text-align: center;
+	line-height: 1.6rem;
+}
+footer .s1{
+	width: 1.8rem;
+	height:1.4rem;
+	display: block;
+	color: #666;
+	font-size: 0.36rem;
+	text-align: center;
+	line-height:1.5rem; 
+	position: absolute;
+	bottom: 0;
+	left: 0.8rem;
+}
+footer .s2{
+	position: absolute;
+	bottom: 0;
+	left: 77%;
+}
+footer .qq{
+	width: 0.65rem;
+	height: 0.65rem;
+	position: fixed;
+	bottom: 0.35rem;
+	left: 0.4rem;
+	background-image: url('../img/qq.png');
+	background-position:-0.1rem 0;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+footer .xin{
+	width: 0.65rem;
+	height: 0.65rem;
+	position: absolute;
+	bottom: 0.35rem;
+	left: 73%;
+	background-image: url('../img/beijing.png');
+	background-position:-2.2rem -7.3rem;
+	background-size:2.8rem;
+	background-repeat: no-repeat;
+}
+footer .dian{
+	width: 0.75rem;
+	height: 0.75rem;
+	position: absolute;
+	bottom: 0.4rem;
+	left: 35%;
+	background-image: url('../img/beijing.png');
+	background-position:-2rem -6.6rem;
+	background-size:2.8rem;
+	background-repeat: no-repeat;
+}
